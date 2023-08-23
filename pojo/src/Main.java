@@ -19,7 +19,7 @@ public class Main {
         booksList.add(new Book("Tricky JavaScript", 450));
         booksList.add(new Book("Broken JS", 450));
 
-        System.out.println(getBooksTitlesByPages(booksList, PAGES_COUNT));
+        System.out.println(getBooksTitlesByPages(booksList, PAGES_COUNT)); //[Eloquent JavaScript, Second Edition, Speaking JavaScript, Tricky JavaScript, Broken JS]
 
 //        Solution with MAP
         Map<String, Integer> books = new HashMap<>();
@@ -30,7 +30,7 @@ public class Main {
         books.put("Tricky JavaScript", 450);
         books.put("Broken JS", 450);
 
-        System.out.println(getBooksTitlesByPages(books, PAGES_COUNT));
+        System.out.println(getBooksTitlesByPages(books, PAGES_COUNT)); //[Broken JS, Speaking JavaScript, Tricky JavaScript, Eloquent JavaScript, Second Edition]
 
     }
 
